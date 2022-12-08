@@ -1,0 +1,32 @@
+1,Brasil,1.841,3 
+2,Bélgica,1816,71 
+3,Argentina,1.773,88 
+4,Francia,1.759,78 
+5,Inglaterra,1.728,47 
+7,España,1.715,22 
+8,Países Bajos,1.694,51 
+9,Portugal,1.676,56 
+10,Dinamarca,1.666,57 
+11,Alemania,1.650,21 
+12,Croacia,1.645,64 
+13,México,1.644,89 
+14,Uruguay,1.638,71 
+15,Suiza,1.635,92 
+16,Estados Unidos,1.627,48 
+18,Senegal,1.584,38 
+19,Gales,1.569,82 
+20,Irán,1.564,61 
+21,Serbia,1.563,62 
+22,Marruecos,1.563,5 
+24,Japón,1.559,54 
+26,Polonia,1.548,59 
+28,Corea del Sur,1.530,3 
+30,Túnez,1.507,54 
+31,Costa Rica,1.503,59 
+38,Australia,1.488,72 
+41,Canadá,1.475 
+43,Camerún,1.471,44 
+44,Ecuador,1.464,39 
+50,Qatar,1.439,89 
+51,Arabia Saudita,1.437,78 
+61,Ghana,1.393 

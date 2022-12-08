@@ -1,0 +1,32 @@
+Países Bajos,3,2,1,0,4,7 
+Senegal,3,2,0,1,1,6 
+Ecuador,3,1,1,1,1,4 
+Qatar,3,0,0,3,-6,0 
+Inglaterra,3,2,1,0,7,7 
+Estados Unidos,3,1,2,0,1,5 
+Irán,3,1,1,1,-1,3 
+Gales,3,0,1,2,-5,1 
+Argentina,3,2,0,1,3,6 
+Polonia,3,1,1,1,0,4 
+México,3,1,1,1,-1,4 
+Arabia Saudita,3,1,0,2,-2,2 
+Francia,3,2,1,0,4,7 
+Australia,3,2,0,1,-1,6 
+Túnez,3,1,1,1,0,4 
+Dinamarca,3,0,1,2,-2,1 
+Japón,3,2,0,1,1,6 
+España,3,1,1,1,6,4 
+Alemania,3,1,1,1,1,4 
+Costa Rica,3,1,0,2,-8,1 
+Marruecos,3,2,1,0,4,7 
+Croacia,3,1,2,0,3,5 
+Bélgica,3,1,2,1,-1,4 
+Canadá,3,0,0,3,-5,0 
+Brasil,3,2,0,1,2,6 
+Suiza,3,2,0,1,1,6 
+Camerún,3,1,1,1,0,4 
+Serbia,3,0,1,2,-3,1 
+Portugal,3,2,0,1,2,6 
+Corea,3,1,1,1,0,4 
+Uruguay,3,1,1,1,0,4 
+Ghana,3,0,2,1,-2,3 
