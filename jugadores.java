@@ -6,7 +6,9 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class jugadores extends javax.swing.JFrame {
-      
+    
+    goles operador = new goles();
+    
     public jugadores() {
         initComponents();
     }
@@ -192,7 +194,7 @@ public class jugadores extends javax.swing.JFrame {
                                                     .addComponent(c3, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
                                                     .addComponent(b3, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
                                                     .addComponent(d3, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                                .addGap(0, 64, Short.MAX_VALUE)))))
+                                                .addGap(0, 113, Short.MAX_VALUE)))))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
                         .addGroup(bgLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -200,13 +202,13 @@ public class jugadores extends javax.swing.JFrame {
                             .addComponent(b4, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(c4, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(d4, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(e4, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(62, 62, 62))
+                            .addComponent(e4, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addGroup(bgLayout.createSequentialGroup()
                         .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 109, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(71, 71, 71)
                         .addComponent(mejor, javax.swing.GroupLayout.PREFERRED_SIZE, 373, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                        .addGap(0, 0, Short.MAX_VALUE)))
+                .addGap(62, 62, 62)
                 .addGroup(bgLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(a5, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -314,38 +316,41 @@ public class jugadores extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        a1.setText(String.valueOf(1));
-        b1.setText(String.valueOf(2));
-        c1.setText(String.valueOf(3));
-        d1.setText(String.valueOf(4));
-        e1.setText(String.valueOf(5));
+        String vec[][] = goles.data();
         
-        a2.setText(String.valueOf("Kylian Mbappé"));
-        b2.setText(String.valueOf("Olivier Giroud"));
-        c2.setText(String.valueOf("Lionel Messi"));
-        d2.setText(String.valueOf("Julián Álvarez"));
-        e2.setText(String.valueOf("Youssef En-Nesyri"));
+        a1.setText(String.valueOf(vec[0][0]));
+        b1.setText(String.valueOf(vec[0][0]));
+        c1.setText(String.valueOf(vec[0][0]));
+        d1.setText(String.valueOf(vec[0][0]));
+        e1.setText(String.valueOf(vec[0][0]));
         
-        a3.setText(String.valueOf("Francia"));
-        b3.setText(String.valueOf("Francia"));
-        c3.setText(String.valueOf("Argentina"));
-        d3.setText(String.valueOf("Argentina"));
-        e3.setText(String.valueOf("Marruecos"));
+        a2.setText(String.valueOf(vec[1][0]));
+        b2.setText(String.valueOf(vec[1][0]));
+        c2.setText(String.valueOf(vec[1][0]));
+        d2.setText(String.valueOf(vec[1][0]));
+        e2.setText(String.valueOf(vec[1][0]));
         
-        a4.setText(String.valueOf(5));
-        b4.setText(String.valueOf(4));
-        c4.setText(String.valueOf(4));
-        d4.setText(String.valueOf(2));
-        e4.setText(String.valueOf(2));
+        a3.setText(String.valueOf(vec[2][0]));
+        b3.setText(String.valueOf(vec[2][1]));
+        c3.setText(String.valueOf(vec[2][2]));
+        d3.setText(String.valueOf(vec[2][3]));
+        e3.setText(String.valueOf(vec[2][4]));
         
-        a5.setText(String.valueOf(0));
-        b5.setText(String.valueOf(0));
-        c5.setText(String.valueOf(2));
-        d5.setText(String.valueOf(0));
-        e5.setText(String.valueOf(0));
+        a4.setText(String.valueOf(vec[3][0]));
+        b4.setText(String.valueOf(vec[3][0]));
+        c4.setText(String.valueOf(vec[3][0]));
+        d4.setText(String.valueOf(vec[3][0]));
+        e4.setText(String.valueOf(vec[3][0]));
+        
+        a5.setText(String.valueOf(vec[4][0]));
+        b5.setText(String.valueOf(vec[4][0]));
+        c5.setText(String.valueOf(vec[4][0]));
+        d5.setText(String.valueOf(vec[4][0]));
+        e5.setText(String.valueOf(vec[4][0]));
         
         
         mejor.setText(String.valueOf("Kylian Mbappé con 5 goles y 2 asistencias"));
+         
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
