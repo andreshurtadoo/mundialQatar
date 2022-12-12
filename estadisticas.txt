@@ -1,0 +1,4 @@
+argentina,9,5,3319,73
+francia,11,5,2782,77
+croacia,6,3,3157,55 
+marrueco,5,1,1613,41      
