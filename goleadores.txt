@@ -1,0 +1,5 @@
+Kylian Mbappé,Francia,5,0
+Olivier Giroud,Francia,4,0
+Lionel Messi,Argentina,4,2
+Julián Álvarez,Argentina,2,0
+Youssef En-Nesyri,Marruecos,2,0
